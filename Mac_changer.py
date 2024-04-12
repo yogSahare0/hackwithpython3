@@ -21,15 +21,15 @@ def get_args():
 def change_mac(interface, new_mac):
         print(f"[+] Changing mac address for {interface} to {new_mac}")
         try:
-                subprocess.call(["ifconfig", interface, "down"])
-                subprocess.call(["ifconfig", interface, "hw", "ether", new_mac])
-                subprocess.call(["ifconfig", interface, "up"])
+                subprocess.run(["ifconfig", interface, "down"], check=True)
+                subprocess.run(["ifconfig", interface, "hw", "ether", new_mac], check=True)
+                subprocess.run(["ifconfig", interface, "up"], check=True)
         except subprocess.CalledProcessError:
                 print("[-] Error: Failed to change MAC Address.")
 
 def get_current_mac(interface):
-        ifconfig_result = subprocess.check_output(["ifconfig", interface])
-        mac_address_search = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", ifconfig_result.decode("utf8"))
+        ifconfig_result = subprocess.run(["ifconfig", interface], capture_output=True, text=True, check=True )
+        mac_address_search = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", ifconfig_result.stdout)
 
         if mac_address_search:
                 return mac_address_search.group(0)
