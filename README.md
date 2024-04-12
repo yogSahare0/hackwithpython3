@@ -1,6 +1,6 @@
 # Ethical Hacking and Penetration Testing Tools
 
-This repository contains tools created by yogSahare0 while learning Python 3 for ethical hacking and penetration testing. The tools are developed based on the knowledge gained from various courses, including:
+This repository contains tools created by yogSahare0(https://github.com/yogSahare0/) while learning Python 3 for ethical hacking and penetration testing. The tools are developed based on the knowledge gained from various courses, including:
 
 1. [Learn Python & Ethical Hacking From Scratch](https://www.udemy.com/course/learn-python-and-ethical-hacking-from-scratch/learn/lecture/9337882#overview) on Udemy.
 2. [Ethical Hacking with Python](https://www.udemy.com/course/ethical-hacking-python/learn/lecture/14295098?start=0#overview) on Udemy.
