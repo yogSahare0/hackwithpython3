@@ -11,10 +11,6 @@ This repository contains tools created by [yogSahare0](https://github.com/yogSah
 
 The tools in this repository are designed for ethical hacking and penetration testing purposes. They leverage Python 3 and various libraries to perform tasks such as network scanning, vulnerability assessment, exploitation, and more.
 
-## Usage
-
-Each tool comes with its own documentation and usage instructions. Make sure to read the README file within each tool's directory for specific details on how to use them effectively.
-
 ## Contribution
 
 Contributions to this repository are welcome. If you have created your own tools or have suggestions for improvements to existing ones, feel free to submit a pull request.
