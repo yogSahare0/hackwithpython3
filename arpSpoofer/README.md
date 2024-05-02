@@ -19,17 +19,17 @@ This script automates the process of ARP spoofing between a target device and th
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/yogSahare0/hackwithpython3.git
    ```
 
 2. **Navigate to the Directory:**
    ```
-   cd repository/
+   cd hackwithpython3/arpSpoofer
    ```
 
 3. **Run the Script:**
    ```
-   python3 arp_spoof.py -t [target IP] -g [gateway IP]
+   python3 arpSpoofer.py -t [target IP] -g [gateway IP]
    ```
    Replace `[target IP]` and `[gateway IP]` with the IP addresses of the target device and the gateway, respectively.
 
