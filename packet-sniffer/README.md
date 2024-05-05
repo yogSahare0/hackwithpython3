@@ -1,4 +1,4 @@
-# HTTP Sniffer
+# HTTP Packet Sniffer
 
 This is a Python script that sniffs HTTP packets on a specified network interface and extracts URLs and login information from HTTP requests.
 
