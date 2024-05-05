@@ -58,4 +58,4 @@ This script automates the process of ARP spoofing between a target device and th
 
 ## Disclaimer
 
-This tool is meant for educational and security assessment purposes only. Misuse of this tool for unauthorized access to networks or systems is illegal and unethical. Use it responsibly and with proper authorization.
+This tool is meant for educational and security assessment purposes only. Misuse of this tool for unauthorized access to networks or systems is illegal and unethical. Use it responsibly and with proper authorization.  
