@@ -41,8 +41,3 @@ This is a Python script that sniffs HTTP packets on a specified network interfac
 ## Disclaimer
 
 This script is for educational purposes only. Do not use it on networks or systems without proper authorization.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
