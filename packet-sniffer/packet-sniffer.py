@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import scapy.all as scapy
-from scapy.layers import http
+import scapy.all as scapy # type: ignore
+from scapy.layers import http # type: ignore
 
 def sniff(interface):
         scapy.sniff(iface=interface, store=False, prn=process_sniffed_packet)
