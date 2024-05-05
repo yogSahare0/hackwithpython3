@@ -24,5 +24,4 @@ def process_sniffed_packet(packet):
                 login_info = get_login_info(packet)
                 if login_info:
                         print(login_info)
-
 sniff("eth0")
